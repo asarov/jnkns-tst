@@ -31,7 +31,7 @@ namespace jnkns_tst_app.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)] + " branch: main"
+                Summary = Summaries[rng.Next(Summaries.Length)] + " branch: stage"
             })
             .ToArray();
         }
